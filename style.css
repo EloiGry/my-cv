@@ -1,0 +1,19 @@
+body {width: 576px;
+margin: auto;}
+
+.column1, .column3, .column5, .column7 {background-color:#066AB2;
+color: white;}
+
+.column1 {height: 30px;}
+
+.column2 {}
+
+.column3 {}
+
+.column4 {}
+
+.column5 {}
+
+.column6 {}
+
+.column7 {}
