@@ -1,32 +1,140 @@
+
+/* code illisible dsl :) */
+
+
+
 body {width: 576px;
 margin: auto;
 border: solid 1px lightgray;
-font-family: 'Poppins', sans-serif;
+font-family: 'Poppins', sans-serif;}
 
-column1, .column3, .column5, .column7 {background-color: #066AB2;
+.column1, .column3, .column5, .column7 {background-color: #066AB2;
 color: white;}
 
 .column1 {height: 30px;
-display: flex;
+position: relative;
 padding-bottom: 8px;}
 
-.profil {padding-left: 118px;
-font-size: 10px;}
+.profil {font-size: 8px;
+position: absolute;
+left: 119px;
+bottom: 15px;
+word-spacing: 3px;
+font-weight: 600;
+}
+
+.Noémie {font-size: small;
+position: absolute;
+left: 3px;
+bottom: 15px;
+font-weight:900;}
 
 
-.column2 {height: 123px;}
+.column2 {height: 123px;
+position: relative;}
+
+.textcolumn2 {position: absolute;
+left: 143px;
+top: 28px;
+line-height: 30px;
+text-align: center;
+}
+
 img {height: 88px;
 width: 85px;
-border-radius: 35px;}
-#df {color: #066AB2;}
+border-radius: 45px;
+position: absolute;
+right: 163px;
+bottom: 6px;}
 
-.column3 {height: 113px;}
 
-.column4 {height: 185px;}
-#ep {color: #066AB2;}
+.NM {font-weight: 900;
+font: size 15px; ;}
 
-.column5 {height:94px ;}
+.DFS {color:#066AB2 ;
+font-weight: 900;
+font-size: small;}
 
-.column6 {height: 93px;}
 
-.column7 {height:68px ;}
+.column3 {height: 113px;
+position: relative;
+}
+
+ul {position: absolute;
+    left: 133px;
+    font-size: x-small;
+    bottom: 20px;
+    line-height: 12px;
+}
+
+.Présentation {position: absolute;
+    left: 125px;
+font-size: small;}
+
+
+
+.column4 {height: 185px;
+position: relative;}
+
+#ep {color: #066AB2;
+position: absolute;
+left: 125px;
+font-size: small;
+}
+
+.Stagiaire {font-size: x-small;
+position: absolute;
+left: 125px;
+}
+
+.Bénévole {font-size: x-small;
+    position: absolute;
+    left: 125px;
+}
+
+.Créa {font-size: xx-small;
+position: absolute;
+left: 125px;
+color: black;
+}
+
+.Orga {font-size: xx-small;
+    position: absolute;
+    left: 125px;
+    color: black;
+}
+
+span {position: absolute;
+left: 350px;
+white-space: nowrap;}
+
+.column5 {height:94px;
+position: relative;}
+
+.Formation {position: absolute;
+left: 125px;
+font-size: small;}
+
+.texteFormation {position: absolute;
+left: 125px;
+font-size: xx-small;}
+
+.column6 {height: 93px;
+position: relative;}
+
+.Passions {position: absolute;
+left: 125px;}
+
+.textePassions {position: absolute;
+    left: 125px;
+    font-size: xx-small;}
+
+.column7 {height:68px;
+font-size: xx-small;
+position: relative;}
+
+.blog {padding: 20px;}
+
+.rs {position: absolute;
+left:180px;
+top: 20px;}
