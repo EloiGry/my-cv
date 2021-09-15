@@ -8,6 +8,9 @@ margin: auto;
 border: solid 1px lightgray;
 font-family: 'Poppins', sans-serif;}
 
+
+
+
 .column1, .column3, .column5, .column7 {background-color: #066AB2;
 color: white;}
 
@@ -23,6 +26,11 @@ word-spacing: 3px;
 font-weight: 600;
 }
 
+.profil a {text-decoration: none;
+color: white;}
+
+
+
 .Noémie {font-size: small;
 position: absolute;
 left: 3px;
@@ -30,7 +38,7 @@ bottom: 15px;
 font-weight:900;}
 
 
-.column2 {height: 123px;
+#column2 {height: 123px;
 position: relative;}
 
 .textcolumn2 {position: absolute;
@@ -85,6 +93,7 @@ font-size: small;
 .Stagiaire {font-size: x-small;
 position: absolute;
 left: 125px;
+font-weight: 900;
 }
 
 .Bénévole {font-size: x-small;
@@ -95,13 +104,13 @@ left: 125px;
 .Créa {font-size: xx-small;
 position: absolute;
 left: 125px;
-color: black;
+font-weight: 600;
 }
 
 .Orga {font-size: xx-small;
     position: absolute;
     left: 125px;
-    color: black;
+    font-weight: 600;
 }
 
 span {position: absolute;
@@ -111,7 +120,7 @@ white-space: nowrap;}
 .column5 {height:94px;
 position: relative;}
 
-.Formation {position: absolute;
+#Formation {position: absolute;
 left: 125px;
 font-size: small;}
 
@@ -138,3 +147,107 @@ position: relative;}
 .rs {position: absolute;
 left:180px;
 top: 20px;}
+
+.column7 a {
+color: white;}
+
+@media screen and (max-width: 500px) {
+    body {
+        width: 400px;
+    }
+
+    .textcolumn2 {
+        position: absolute;
+        left: 43px;
+        top: 28px;
+        line-height: 30px;
+        text-align: center;
+        }
+
+        img {height: 88px;
+            width: 85px;
+            border-radius: 45px;
+            position: absolute;
+            right: 63px;
+            bottom: 6px;}
+
+    .Présentation {
+        position: absolute;
+        left: 25px;
+        font-size: small;
+    }
+
+    ul {
+        position: absolute;
+        left: 33px;
+        font-size: x-small;
+        bottom: 20px;
+        line-height: 12px;
+    }
+
+    #ep {
+        color: #066AB2;
+        position: absolute;
+        left: 25px;
+        font-size: small;
+        }
+        
+        .Stagiaire {
+            font-size: x-small;
+            position: absolute;
+            left: 25px;
+            font-weight: 900;
+        }
+        
+        .Bénévole {
+            font-size: x-small;
+            position: absolute;
+            left: 25px;
+        }
+        
+        .Créa {
+            font-size: xx-small;
+            position: absolute;
+            left: 25px;
+            font-weight: 600;
+        }
+        
+        .Orga {
+            font-size: xx-small;
+            position: absolute;
+            left: 25px;
+            font-weight: 600;
+        }
+
+        span {
+            position: absolute;
+            left: 250px;
+            white-space: nowrap;
+        }
+
+        #Formation {
+            position: absolute;
+            left: 25px;
+            font-size: small;}
+            
+            .texteFormation {
+                position: absolute;
+            left: 25px;
+            font-size: xx-small;
+        }
+
+        .Passions {
+            position: absolute;
+            left: 25px;}
+            
+            .textePassions {
+                position: absolute;
+                left: 25px;
+                font-size: xx-small;}
+
+
+
+
+
+
+}
