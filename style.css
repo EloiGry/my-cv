@@ -131,25 +131,35 @@ font-size: xx-small;}
 .column6 {height: 93px;
 position: relative;}
 
-.Passions {position: absolute;
-left: 125px;}
+.Passions {
+    position: absolute;
+left: 125px;
+}
 
 .textePassions {position: absolute;
     left: 125px;
-    font-size: xx-small;}
+    font-size: xx-small;
+    font-weight: 600;
+}
 
-.column7 {height:68px;
-font-size: xx-small;
-position: relative;}
+.column7 {
+    height:68px;
+    font-size: xx-small;
+    position: relative;
+}
 
-.blog {padding: 20px;}
+.blog {
+    padding: 20px;
+}
 
-.rs {position: absolute;
-left:180px;
-top: 20px;}
+.rs {
+    position: absolute;
+    left:180px;
+    top: 20px;}
 
 .column7 a {
-color: white;}
+        color: white;
+}
 
 @media screen and (max-width: 500px) {
     body {
@@ -210,6 +220,7 @@ color: white;}
             position: absolute;
             left: 25px;
             font-weight: 600;
+            
         }
         
         .Orga {
@@ -240,7 +251,7 @@ color: white;}
             position: absolute;
             left: 25px;}
             
-            .textePassions {
+        .textePassions {
                 position: absolute;
                 left: 25px;
                 font-size: xx-small;}
